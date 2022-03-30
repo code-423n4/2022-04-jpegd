@@ -59,8 +59,8 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-03-jpegd-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts March 26 2022 00:00 UTC
-- Ends April 1 2022 23:59 UTC
+- Starts April 1, 2022 00:00 UTC
+- Ends April 7, 2022 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 

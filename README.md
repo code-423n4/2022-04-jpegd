@@ -77,7 +77,7 @@ This repo will be made public before the start of the contest. (C4 delete this l
 | JPEG'd DAO                         | DAO governing the JPEG'd DeFi protocol                              |
 | JPEG                               | Governance token for JPEG'd DAO                                     |
 | sJPEG                              | Token representing staked JPEG                                      |
-| PUSD                               | Stablecoin minted by the DeFi protocol                              |
+| PUSd                               | Stablecoin minted by the DeFi protocol                              |
 | CDP / Collateralized Debt Position | A loan backed by some form of collateral                            |
 | LTV / Loan to Value                | Ratio of the debt position to the value of the collateral deposited |
 | Curve pool                         | Liquidity pool on Curve AMM for stablecoin swaps                    |
@@ -90,7 +90,7 @@ This contest is open for a week. Representatives from the JPEG'd team will be av
 
 ## Protocol overview
 
-JPEG'd is a decentralized lending protocol on the Ethereum blockchain that enables non-fungible token (NFT) holders to open collateralized debt positions (CDPs) using their NFTs as collateral. Users mint PUSD, the native stablecoin of the protocol, enabling them to effectively obtain leverage on their NFTs.
+JPEG'd is a decentralized lending protocol on the Ethereum blockchain that enables non-fungible token (NFT) holders to open collateralized debt positions (CDPs) using their NFTs as collateral. Users mint PUSd, the native stablecoin of the protocol, enabling them to effectively obtain leverage on their NFTs.
 
 The protocol will be managed by a governance token, JPEG, that will oversee, administer, and change parameters of the protocol.
 
@@ -98,7 +98,7 @@ JPEG'd is completely permissionless, decentralized, and is not controlled by any
 
 ## Smart Contracts
 
-The core of the protocol is the `NFTVault` contract, containing the logic for lending PUSD to users based upon their NFT collateral. As CryptoPunks and EtherRocks predate modern NFT standards, their respective helper contracts are used by `NFTVault` to implement ERC721 interfaces. PUSD can also be minted by the DAO using fungible assets, as managed by `FungibleAssetVaultforDAO`.
+The core of the protocol is the `NFTVault` contract, containing the logic for lending PUSd to users based upon their NFT collateral. As CryptoPunks and EtherRocks predate modern NFT standards, their respective helper contracts are used by `NFTVault` to implement ERC721 interfaces. PUSd can also be minted by the DAO using fungible assets, as managed by `FungibleAssetVaultforDAO`.
 
 An overview of the system can be seen [here](https://whimsical.com/jpeg-d-dao-Lr5kmvULtzm2KKwwzdZaZL).
 
@@ -152,13 +152,13 @@ JPEG - Governance token.
 
 #### StableCoin.sol (84 sloc)
 
-PUSD - JPEG'd Stablecoin. PUSD is minted by `NFTVault` (backed by NFTs) and `FungibleAssetVaultForDAO` (backed by fungible assets).
+PUSd - JPEG'd Stablecoin. PUSd is minted by `NFTVault` (backed by NFTs) and `FungibleAssetVaultForDAO` (backed by fungible assets).
 
 ### Vaults
 
 #### yvault/strategies/StrategyPUSDConvex.sol (432 sloc)
 
-JPEG'd PUSD Convex autocompounding strategy. This strategy autocompounds Convex rewards from the PUSD/USDC/USDT/MIM Curve pool.
+JPEG'd PUSd Convex autocompounding strategy. This strategy autocompounds Convex rewards from the PUSd/USDC/USDT/MIM Curve pool.
 
 #### yvault/Controller.sol (168 sloc)
 
@@ -170,8 +170,8 @@ JPEG'd yVault. Allows users to deposit fungible assets into autocompounding stra
 
 #### FungibleAssetVaultForDAO.sol (210 sloc)
 
-Fungible asset vault (for DAO and ecosystem contracts). Allows the DAO and other whitelisted addresses to mint PUSD using fungible assets as collateral.
+Fungible asset vault (for DAO and ecosystem contracts). Allows the DAO and other whitelisted addresses to mint PUSd using fungible assets as collateral.
 
 #### NFTVault.sol (952 sloc)
 
-NFT lending vault. This contracts allows users to borrow PUSD using NFTs as collateral.
+NFT lending vault. This contracts allows users to borrow PUSd using NFTs as collateral.

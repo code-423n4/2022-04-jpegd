@@ -54,6 +54,9 @@ Escrow contract for non ERC721 NFTs. Handles atomic non ERC721 NFT transfers by 
 
 JPEG'd LP Farming. Users can stake their JPEG'd ecosystem LP tokens to get JPEG rewards.
 
+Known issue - due to how the `_withdrawReward` internal function behaves, in some circustances accrued user rewards are going to be stored in the `userRewards` mapping.
+This behaviour lets users see and claim the amount of rewards stored in the mapping from any pool, regardless of the amount staked. Users will still get the overall correct amount of rewards.
+
 Known errors in the natspec documentation for the newEpoch function - the new epoch's start block has to be greater than block.number, not the previous epoch's end block, and the function may be called during an epoch.
 
 #### yVaultLPFarming.sol (193 sloc)

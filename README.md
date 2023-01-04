@@ -116,3 +116,4 @@ Fungible asset vault (for DAO and ecosystem contracts). Allows the DAO and other
 #### NFTVault.sol (952 sloc)
 
 NFT lending vault. This contracts allows users to borrow PUSd using NFTs as collateral.
+test

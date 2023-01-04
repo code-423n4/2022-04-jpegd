@@ -10,4 +10,4 @@ coverage
 coverage.json
 types
 .env
-.openzeppelin
+.openzeppelin.git/

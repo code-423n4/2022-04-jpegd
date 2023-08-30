@@ -1,0 +1,196 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q2-2022 / ☑jpegd-apr7
+==============================================================
+
+[04/05/2022 3:01 PM] kartoonjoy
+👋 Hello and welcome to the contest channel for the **$100K USDC JPEG'd** contest!
+
+📆 Contest opens April 07, 2022, at 0:00 UTC and runs through April 13, 2022 at 23:59 UTC (7 days).
+
+Please give a warm welcome to the JPEG'd team, particularly @Spaghetti dev and @pool who will be available for questions either here in the channel or via DM. 
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+{Reactions}
+C4Keycap (7) 🎉 (4) 
+
+[04/07/2022 3:00 AM] hickuphh3
+hey guys, could u add the interfaces to the contracts, `package.json` and tests, if any, to the repo? much appreciated
+
+{Reactions}
+👍 (4) 
+
+[04/07/2022 4:22 PM] hickuphh3
+Okay, I need the files to go up. I can't take this anymore. Every hour I'm checking the repo and it's unchanged. Every hour, I check the repo - no change. I can't take this anymore, man. I have overinvested - by a lot. It is what it is. I need the interfaces / tests to go up. Can devs @Spaghetti dev @pool do something?
+
+{Reactions}
+thisisfine (6) hi5 (3) goose (3) 😫 😄 🤣 
+
+[04/07/2022 5:08 PM] Spaghetti dev#9116
+hey, sorry didn't see this. I just pushed everything, I dunno why they only pushed contracts in the first place
+
+
+[04/07/2022 5:08 PM] Spaghetti dev#9116
+lmao nice pasta
+
+
+[04/07/2022 5:24 PM] hickuphh3
+Hehe thanks! Seems like the interfaces are still missing though 😅😅
+
+
+[04/07/2022 5:28 PM] Spaghetti dev#9116
+oops my bad. I'll get someone to push everything asap
+
+
+[04/07/2022 5:31 PM] _pool
+Pushed interfaces
+
+
+[04/07/2022 5:47 PM] hickuphh3
+Great, thanks!
+
+
+[04/07/2022 6:01 PM] _pool
+@dimitri
+
+
+[04/07/2022 6:02 PM] dimitri01#5993
+Hi, I am trying to understand totalDebtPortion, would you mind expounding on what it means/how it is used?
+
+
+[04/07/2022 6:02 PM] dimitri01#5993
+maybe will be more clear now that tests are shared
+
+
+[04/07/2022 6:04 PM] _pool
+it's used wherever _calculateDebt is called, and tracks the portion of the global protocol debt that's from user loan principal values
+
+
+[04/07/2022 6:33 PM] pedroais
+What's the idea behind locking jpeg to increase NFT value ?
+
+
+[04/07/2022 6:44 PM] _pool
+https://medium.com/@jpegd/the-lending-mechanics-f59da95eb894
+
+{Embed}
+https://medium.com/@jpegd/the-lending-mechanics-f59da95eb894
+The Lending Mechanics
+This post will cover more specifics on the lending protocol mechanics and how interest will work, collateralization limits, and…
+Code4rena - ARCHIVE-Q2-2022 - ☑jpegd-apr7 [960916067717365832].txt_Files/1%2ALQRurMLoneNJpUsjYPbVfQ-D02FA.png
+
+
+[04/07/2022 6:44 PM] _pool
+Rationale there
+
+
+[04/07/2022 7:31 PM] pedroais
+thanks
+
+
+[04/07/2022 8:53 PM] samruna
+No instructions on setup ??
+
+
+[04/08/2022 7:00 PM] pedroais
+Hi, any devs available to dm ?
+
+
+[04/08/2022 8:27 PM] Spaghetti dev#9116
+hey, you can dm me
+
+
+[04/08/2022 8:30 PM] pedroais
+done
+
+
+[04/09/2022 3:04 AM] vad37
+Why does the JPEG's DAO have power to mint infinite token JPEG? Does DAO not worry about user questioning rugpull potential?
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2022 - ☑jpegd-apr7 [960916067717365832].txt_Files/unknown-49CB6.png
+
+
+[04/11/2022 6:55 PM] bernd_42
+What's the benefit of staking JPEG to receive sJPEG? Are there any rewards payed out or protocol revenue sharing? I could not find anything in code.
+
+
+[04/11/2022 8:26 PM] Spaghetti dev#9116
+yeah for now sJPEG doesn't do anything, it's probably gonna be something we'll add in later. Either that or we'll simply remove the contract
+
+{Reactions}
+👍 
+
+[04/11/2022 8:34 PM] ellahi
+@Spaghetti dev can i dm?
+
+
+[04/11/2022 8:34 PM] Spaghetti dev#9116
+sure
+
+
+[04/13/2022 8:06 PM] m9800
+@Spaghetti dev can i dm?
+
+
+[04/13/2022 8:11 PM] Spaghetti dev#9116
+Sure
+
+
+[04/14/2022 12:02 AM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens  The **JPEG'd** contest is now closed! Huge thanks to everyone who participated🔍, whether you submitted a finding or not.
+
+What's next: the JPEG'd team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a contest administrator if you have questions along the way!
+
+
+[04/20/2022 8:20 PM] slush_zzz
+hey guys, good job on working hjard! any update on this one? thanks <3
+
+{Reactions}
+hi5 
+
+[04/20/2022 9:13 PM] itsmetechjay
+This one went over to the judge this week.  So it's in judging currently.
+
+
+[04/20/2022 9:14 PM] slush_zzz
+thank you for the info :AMsalute:
+
+
+[04/20/2022 9:16 PM] itsmetechjay
+You're welcome!
+
+
+[04/27/2022 7:47 PM] okkothejawa
+Any updates on progress on judging? thanks :)
+
+
+[04/27/2022 8:41 PM] itsmetechjay
+We are hoping to get it wrapped up in the next few days.
+
+
+[05/02/2022 10:15 AM] okkothejawa
+any further news?
+
+
+[05/02/2022 6:53 PM] cloudellie
+Judging has just been completed. We're just giving the sponsor an opportunity to review the judge's decisions before we calculate the awards.
+
+
+[05/02/2022 10:04 PM] okkothejawa
+Do you have a guess regarding when it would finish, we are a bit excited/nervous about the results :)
+
+
+[05/02/2022 10:13 PM] liveactionllamac4
+It is really dependent on whether the sponsor and judge decide they need to discuss anything further, as we want to make sure all looks good before proceeding. 🙂
+If all goes well though, I wouldn't be surprised if awards were announced later this week. 🤞
+
+{Reactions}
+thankyou 
+
+==============================================================
+Exported 39 message(s)
+==============================================================
